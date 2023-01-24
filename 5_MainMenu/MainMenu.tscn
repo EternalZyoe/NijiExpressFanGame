@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI_Theme/Default_Theme.tres" type="Theme" id=1]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1030.0
+margin_bottom = 611.0
+color = Color( 0.0823529, 0.152941, 0.239216, 1 )
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color( 0.427451, 0.34902, 0.478431, 1 )
+margin_left = 84.0
+margin_top = -5.0
+margin_right = 415.0
+margin_bottom = 620.0
+theme = ExtResource( 1 )
