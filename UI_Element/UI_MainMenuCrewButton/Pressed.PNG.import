@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Back Bar.JPEG-482b4e3931b52b873cfab8f73640fd1c.stex"
+path="res://.import/Pressed.PNG-4d2dd0b6b10b3f7ceccc5a7a71426dd1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI_Element/Back Bar.JPEG"
-dest_files=[ "res://.import/Back Bar.JPEG-482b4e3931b52b873cfab8f73640fd1c.stex" ]
+source_file="res://UI_Element/UI_MainMenuCrewButton/Pressed.PNG"
+dest_files=[ "res://.import/Pressed.PNG-4d2dd0b6b10b3f7ceccc5a7a71426dd1.stex" ]
 
 [params]
 
