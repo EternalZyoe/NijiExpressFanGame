@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=7 format=2]
+[gd_resource type="Theme" load_steps=8 format=2]
 
 [ext_resource path="res://UI_Text/Font_ButtonM.tres" type="DynamicFont" id=1]
 [ext_resource path="res://UI_Text/Font_ButtonS.tres" type="DynamicFont" id=2]
@@ -6,9 +6,12 @@
 [ext_resource path="res://UI_Text/Font_Header.tres" type="DynamicFont" id=4]
 [ext_resource path="res://UI_Text/Font_Title.tres" type="DynamicFont" id=5]
 [ext_resource path="res://UI_Text/Font_ButtonL.tres" type="DynamicFont" id=6]
+[ext_resource path="res://UI_Text/Font_AbilityIconText.tres" type="DynamicFont" id=7]
 
 [resource]
 default_font = ExtResource( 6 )
+AbilityIconText/base_type = "Label"
+AbilityIconText/fonts/font = ExtResource( 7 )
 Body/base_type = "Label"
 Body/fonts/font = ExtResource( 3 )
 Button/colors/font_color = Color( 0.141176, 0.141176, 0.141176, 1 )

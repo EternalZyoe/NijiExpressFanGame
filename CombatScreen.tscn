@@ -1,0 +1,224 @@
+[gd_scene format=2]
+
+[node name="CombatScreen" type="Node"]
+
+[node name="UI" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="AbilityIconVBox" type="HBoxContainer" parent="UI"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 76.0
+margin_top = -183.0
+margin_right = -1569.0
+margin_bottom = -54.0
+custom_constants/separation = 25
+alignment = 1
+
+[node name="AbilIcon" type="VSplitContainer" parent="UI/AbilityIconVBox"]
+margin_right = 75.0
+margin_bottom = 129.0
+
+[node name="Index" type="Label" parent="UI/AbilityIconVBox/AbilIcon"]
+margin_right = 75.0
+margin_bottom = 42.0
+theme_type_variation = "AbilityIconText"
+text = "Q"
+align = 1
+
+[node name="AbilIconTemp" type="ColorRect" parent="UI/AbilityIconVBox/AbilIcon"]
+margin_top = 54.0
+margin_right = 75.0
+margin_bottom = 129.0
+rect_min_size = Vector2( 75, 75 )
+color = Color( 0.768627, 1, 1, 1 )
+
+[node name="AbilIcon2" type="VSplitContainer" parent="UI/AbilityIconVBox"]
+margin_left = 100.0
+margin_right = 175.0
+margin_bottom = 129.0
+
+[node name="Index" type="Label" parent="UI/AbilityIconVBox/AbilIcon2"]
+margin_right = 75.0
+margin_bottom = 42.0
+theme_type_variation = "AbilityIconText"
+text = "W"
+align = 1
+
+[node name="AbilIconTemp" type="ColorRect" parent="UI/AbilityIconVBox/AbilIcon2"]
+margin_top = 54.0
+margin_right = 75.0
+margin_bottom = 129.0
+rect_min_size = Vector2( 75, 75 )
+color = Color( 0.768627, 1, 1, 1 )
+
+[node name="AbilIcon3" type="VSplitContainer" parent="UI/AbilityIconVBox"]
+margin_left = 200.0
+margin_right = 275.0
+margin_bottom = 129.0
+
+[node name="Index" type="Label" parent="UI/AbilityIconVBox/AbilIcon3"]
+margin_right = 75.0
+margin_bottom = 42.0
+theme_type_variation = "AbilityIconText"
+text = "E"
+align = 1
+
+[node name="AbilIconTemp" type="ColorRect" parent="UI/AbilityIconVBox/AbilIcon3"]
+margin_top = 54.0
+margin_right = 75.0
+margin_bottom = 129.0
+rect_min_size = Vector2( 75, 75 )
+color = Color( 0.768627, 1, 1, 1 )
+
+[node name="CarriageHandler" type="Node2D" parent="."]
+
+[node name="EnemyHandler" type="Node2D" parent="."]
+
+[node name="TestCarriageSizes" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TestCarriageSizes"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 269.0
+margin_top = -433.0
+margin_right = -961.0
+margin_bottom = -286.0
+custom_constants/separation = 30
+alignment = 1
+
+[node name="CarriageTemp" type="VSplitContainer" parent="TestCarriageSizes/HBoxContainer"]
+margin_right = 210.0
+margin_bottom = 147.0
+
+[node name="ColorRect" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp"]
+margin_right = 210.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 210, 110 )
+
+[node name="VSplitContainer" type="VBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp"]
+margin_top = 122.0
+margin_right = 210.0
+margin_bottom = 147.0
+custom_constants/separation = 5
+
+[node name="ColorRect2" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp/VSplitContainer"]
+margin_right = 210.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 210, 10 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp/VSplitContainer"]
+margin_top = 15.0
+margin_right = 210.0
+margin_bottom = 25.0
+custom_constants/separation = 5
+
+[node name="ColorRect5" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp/VSplitContainer/HBoxContainer"]
+margin_right = 35.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="ColorRect4" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp/VSplitContainer/HBoxContainer"]
+margin_left = 40.0
+margin_right = 75.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="ColorRect3" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp/VSplitContainer/HBoxContainer"]
+margin_left = 80.0
+margin_right = 115.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="CarriageTemp2" type="VSplitContainer" parent="TestCarriageSizes/HBoxContainer"]
+margin_left = 240.0
+margin_right = 450.0
+margin_bottom = 147.0
+
+[node name="ColorRect" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2"]
+margin_right = 210.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 210, 110 )
+
+[node name="VSplitContainer" type="VBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2"]
+margin_top = 122.0
+margin_right = 210.0
+margin_bottom = 147.0
+custom_constants/separation = 5
+
+[node name="ColorRect2" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2/VSplitContainer"]
+margin_right = 210.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 210, 10 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2/VSplitContainer"]
+margin_top = 15.0
+margin_right = 210.0
+margin_bottom = 25.0
+custom_constants/separation = 5
+
+[node name="ColorRect5" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2/VSplitContainer/HBoxContainer"]
+margin_right = 35.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="ColorRect4" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2/VSplitContainer/HBoxContainer"]
+margin_left = 40.0
+margin_right = 75.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="ColorRect3" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp2/VSplitContainer/HBoxContainer"]
+margin_left = 80.0
+margin_right = 115.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="CarriageTemp3" type="VSplitContainer" parent="TestCarriageSizes/HBoxContainer"]
+margin_left = 480.0
+margin_right = 690.0
+margin_bottom = 147.0
+
+[node name="ColorRect" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3"]
+margin_right = 210.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 210, 110 )
+
+[node name="VSplitContainer" type="VBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3"]
+margin_top = 122.0
+margin_right = 210.0
+margin_bottom = 147.0
+custom_constants/separation = 5
+
+[node name="ColorRect2" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3/VSplitContainer"]
+margin_right = 210.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 210, 10 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3/VSplitContainer"]
+margin_top = 15.0
+margin_right = 210.0
+margin_bottom = 25.0
+custom_constants/separation = 5
+
+[node name="ColorRect5" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3/VSplitContainer/HBoxContainer"]
+margin_right = 35.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="ColorRect4" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3/VSplitContainer/HBoxContainer"]
+margin_left = 40.0
+margin_right = 75.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
+
+[node name="ColorRect3" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp3/VSplitContainer/HBoxContainer"]
+margin_left = 80.0
+margin_right = 115.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 35, 10 )
