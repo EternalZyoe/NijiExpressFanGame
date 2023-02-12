@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Normal.JPEG-3b3722136226fa504b6202802bf76de3.stex"
+path="res://.import/HandDefault.PNG-6ff7b06ef8de0b1099d02de8547d4500.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI_Element/UI_MainMenuTravelButton/Normal.JPEG"
-dest_files=[ "res://.import/Normal.JPEG-3b3722136226fa504b6202802bf76de3.stex" ]
+source_file="res://TempArt/HandDefault.PNG"
+dest_files=[ "res://.import/HandDefault.PNG-6ff7b06ef8de0b1099d02de8547d4500.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pressed.JPEG-66c40d12f6c1beab02fc99ac8915f321.stex"
+path="res://.import/SelenEmber.PNG-61c5e3964e5f2b9f5bc4ae70e31f2540.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI_Element/UI_MainMenuTravelButton/Pressed.JPEG"
-dest_files=[ "res://.import/Pressed.JPEG-66c40d12f6c1beab02fc99ac8915f321.stex" ]
+source_file="res://TempArt/SelenEmber.PNG"
+dest_files=[ "res://.import/SelenEmber.PNG-61c5e3964e5f2b9f5bc4ae70e31f2540.stex" ]
 
 [params]
 

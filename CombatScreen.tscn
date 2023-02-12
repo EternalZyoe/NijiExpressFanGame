@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://PlayerCharacterArt.tscn" type="PackedScene" id=1]
 
 [node name="CombatScreen" type="Node"]
 
@@ -10,15 +12,14 @@ anchor_bottom = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 76.0
-margin_top = -183.0
-margin_right = -1569.0
-margin_bottom = -54.0
+margin_top = -160.0
+margin_bottom = -31.0
 custom_constants/separation = 25
 alignment = 1
 
 [node name="AbilIcon" type="VSplitContainer" parent="UI/AbilityIconVBox"]
-margin_right = 75.0
+margin_left = 822.0
+margin_right = 897.0
 margin_bottom = 129.0
 
 [node name="Index" type="Label" parent="UI/AbilityIconVBox/AbilIcon"]
@@ -36,8 +37,8 @@ rect_min_size = Vector2( 75, 75 )
 color = Color( 0.768627, 1, 1, 1 )
 
 [node name="AbilIcon2" type="VSplitContainer" parent="UI/AbilityIconVBox"]
-margin_left = 100.0
-margin_right = 175.0
+margin_left = 922.0
+margin_right = 997.0
 margin_bottom = 129.0
 
 [node name="Index" type="Label" parent="UI/AbilityIconVBox/AbilIcon2"]
@@ -55,8 +56,8 @@ rect_min_size = Vector2( 75, 75 )
 color = Color( 0.768627, 1, 1, 1 )
 
 [node name="AbilIcon3" type="VSplitContainer" parent="UI/AbilityIconVBox"]
-margin_left = 200.0
-margin_right = 275.0
+margin_left = 1022.0
+margin_right = 1097.0
 margin_bottom = 129.0
 
 [node name="Index" type="Label" parent="UI/AbilityIconVBox/AbilIcon3"]
@@ -96,7 +97,11 @@ alignment = 1
 margin_right = 210.0
 margin_bottom = 147.0
 
-[node name="ColorRect" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp"]
+[node name="HBoxContainer" type="HBoxContainer" parent="TestCarriageSizes/HBoxContainer/CarriageTemp"]
+margin_right = 210.0
+margin_bottom = 110.0
+
+[node name="ColorRect" type="ColorRect" parent="TestCarriageSizes/HBoxContainer/CarriageTemp/HBoxContainer"]
 margin_right = 210.0
 margin_bottom = 110.0
 rect_min_size = Vector2( 210, 110 )
@@ -222,3 +227,7 @@ margin_left = 80.0
 margin_right = 115.0
 margin_bottom = 10.0
 rect_min_size = Vector2( 35, 10 )
+
+[node name="PlayerCharacterArt" parent="." instance=ExtResource( 1 )]
+position = Vector2( 852, 623 )
+scale = Vector2( 0.5, 0.5 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Hover.JPEG-86556bfade325ee6cf5dcabce13ec7cd.stex"
+path="res://.import/SelenHandR.PNG-b35a170c7e73dbc7f4d01066be666996.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI_Element/UI_MainMenuTravelButton/Hover.JPEG"
-dest_files=[ "res://.import/Hover.JPEG-86556bfade325ee6cf5dcabce13ec7cd.stex" ]
+source_file="res://TempArt/SelenHandR.PNG"
+dest_files=[ "res://.import/SelenHandR.PNG-b35a170c7e73dbc7f4d01066be666996.stex" ]
 
 [params]
 

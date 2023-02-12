@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Normal.PNG-838d02b4e6dbb685238b5cc7e944d867.stex"
+path="res://.import/SelenShirt.PNG-8ee08928a51f743ac5bdfef42d3c6bba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI_Element/UI_MainMenuCrewButton/Normal.PNG"
-dest_files=[ "res://.import/Normal.PNG-838d02b4e6dbb685238b5cc7e944d867.stex" ]
+source_file="res://TempArt/SelenShirt.PNG"
+dest_files=[ "res://.import/SelenShirt.PNG-8ee08928a51f743ac5bdfef42d3c6bba.stex" ]
 
 [params]
 
