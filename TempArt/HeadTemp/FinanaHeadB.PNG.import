@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SelenShirt.PNG-8ee08928a51f743ac5bdfef42d3c6bba.stex"
+path="res://.import/FinanaHeadB.PNG-20f95b8d4e0801a81695826fd737894a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TempArt/SelenShirt.PNG"
-dest_files=[ "res://.import/SelenShirt.PNG-8ee08928a51f743ac5bdfef42d3c6bba.stex" ]
+source_file="res://TempArt/HeadTemp/FinanaHeadB.PNG"
+dest_files=[ "res://.import/FinanaHeadB.PNG-20f95b8d4e0801a81695826fd737894a.stex" ]
 
 [params]
 

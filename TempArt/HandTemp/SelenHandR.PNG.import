@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SelenHandR.PNG-b35a170c7e73dbc7f4d01066be666996.stex"
+path="res://.import/SelenHandR.PNG-4eea4876020acbbb072282574a27b35c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TempArt/SelenHandR.PNG"
-dest_files=[ "res://.import/SelenHandR.PNG-b35a170c7e73dbc7f4d01066be666996.stex" ]
+source_file="res://TempArt/HandTemp/SelenHandR.PNG"
+dest_files=[ "res://.import/SelenHandR.PNG-4eea4876020acbbb072282574a27b35c.stex" ]
 
 [params]
 

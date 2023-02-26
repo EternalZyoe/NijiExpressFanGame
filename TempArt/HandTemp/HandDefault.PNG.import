@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/HandDefault.PNG-6ff7b06ef8de0b1099d02de8547d4500.stex"
+path="res://.import/HandDefault.PNG-529c834d1d6123be1dc7380df2463322.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TempArt/HandDefault.PNG"
-dest_files=[ "res://.import/HandDefault.PNG-6ff7b06ef8de0b1099d02de8547d4500.stex" ]
+source_file="res://TempArt/HandTemp/HandDefault.PNG"
+dest_files=[ "res://.import/HandDefault.PNG-529c834d1d6123be1dc7380df2463322.stex" ]
 
 [params]
 

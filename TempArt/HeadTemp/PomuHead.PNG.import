@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SelenHead.PNG-1f1a4c55c4de40365cfc6e75452106e4.stex"
+path="res://.import/PomuHead.PNG-32f688d8f0d863ffd120703a506d4232.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TempArt/SelenHead.PNG"
-dest_files=[ "res://.import/SelenHead.PNG-1f1a4c55c4de40365cfc6e75452106e4.stex" ]
+source_file="res://TempArt/HeadTemp/PomuHead.PNG"
+dest_files=[ "res://.import/PomuHead.PNG-32f688d8f0d863ffd120703a506d4232.stex" ]
 
 [params]
 

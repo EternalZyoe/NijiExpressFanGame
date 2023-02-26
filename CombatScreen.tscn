@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://PlayerCharacterArt.tscn" type="PackedScene" id=1]
+[ext_resource path="res://PlayerCharArt.tscn" type="PackedScene" id=1]
+[ext_resource path="res://TrainCarriage.png" type="Texture" id=2]
 
 [node name="CombatScreen" type="Node"]
 
@@ -75,10 +76,26 @@ rect_min_size = Vector2( 75, 75 )
 color = Color( 0.768627, 1, 1, 1 )
 
 [node name="CarriageHandler" type="Node2D" parent="."]
+position = Vector2( 498, 769 )
+
+[node name="Carriage" type="Node2D" parent="CarriageHandler"]
+
+[node name="TrainCarriage" type="Sprite" parent="CarriageHandler/Carriage"]
+position = Vector2( 0, 28 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 2 )
+
+[node name="PlayerChar" type="Node2D" parent="CarriageHandler"]
+position = Vector2( 0, -75 )
+
+[node name="PlayerCharArt" parent="CarriageHandler/PlayerChar" instance=ExtResource( 1 )]
+position = Vector2( 0, 25 )
+scale = Vector2( 0.7, 0.7 )
 
 [node name="EnemyHandler" type="Node2D" parent="."]
 
 [node name="TestCarriageSizes" type="Control" parent="."]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 
@@ -227,7 +244,3 @@ margin_left = 80.0
 margin_right = 115.0
 margin_bottom = 10.0
 rect_min_size = Vector2( 35, 10 )
-
-[node name="PlayerCharacterArt" parent="." instance=ExtResource( 1 )]
-position = Vector2( 852, 623 )
-scale = Vector2( 0.5, 0.5 )
